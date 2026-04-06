@@ -1,0 +1,3 @@
+[submodule "lab6/lab6-django-react"]
+	path = lab6/lab6-django-react
+	url = git@github.com:Sanzeebeyy/lab6-django-react.git
