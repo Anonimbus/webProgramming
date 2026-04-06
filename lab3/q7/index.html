@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Table Generator</title>
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .even {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Dynamic Table Generator</h2>
+
+<input id="rows" placeholder="Rows">
+<input id="cols" placeholder="Columns">
+
+<br><br>
+
+<button id="generate">Generate Table</button>
+<button id="addRow">Add Row</button>
+<button id="deleteRow">Delete Row</button>
+<button id="highlight">Highlight Even Rows</button>
+
+<br><br>
+
+<table id="table"></table>
+
+<script src="script.js"></script>
+</body>
+</html>

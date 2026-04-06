@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .task {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>To-Do List</h2>
+
+<input id="taskInput" placeholder="Enter task">
+<button class="add">Add Task</button>
+
+<p class="count">Completed Tasks: 0</p>
+
+<button class="showAll">All</button>
+<button class="showPending">Pending</button>
+<button class="showCompleted">Completed</button>
+
+<div class="tasks"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marksheet</title>
+    <style>
+        .pass { background-color: lightgreen; }
+        .fail { background-color: lightcoral; }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Student Marksheet Generator</h2>
+
+<input id="name" placeholder="Name">
+<input id="roll" placeholder="Roll No"><br><br>
+
+<input id="wp" placeholder="Web Programming">
+<input id="ml" placeholder="Machine Learning">
+<input id="gd" placeholder="Graphic Design">
+<input id="lit" placeholder="Literature">
+<input id="art" placeholder="Art"><br><br>
+
+<button id="add">Generate</button>
+
+<br><br>
+
+<table>
+    <tr>
+        <th>Name</th><th>Roll</th>
+        <th>WP</th><th>ML</th><th>GD</th><th>Lit</th><th>Art</th>
+        <th>Total</th><th>%</th><th>Grade</th><th>Result</th>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
